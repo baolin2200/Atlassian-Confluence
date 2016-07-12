@@ -34,8 +34,7 @@ wget https://downloads.atlassian.com/software/confluence/downloads/atlassian-con
 Unpacking JRE ...
 Starting Installer ...
 六月 20, 2016 7:24:44 下午 java.util.prefs.FileSystemPreferences$2 run
-信息: Created system preferences directory in java.home.
-
+信息: Created system preferences directory in java.home.  
 This will install Confluence 5.9.12 on your computer.
 OK [o, Enter], Cancel [c]
 o
@@ -52,11 +51,8 @@ HTTP Port: 8090
 RMI Port: 8000 
 Install as service: Yes 
 Install [i, Enter], Exit [e]
-i
-
-Extracting files ...
-                                                                           
-
+i   
+Extracting files ...    
 Please wait a few moments while Confluence starts up.
 Launching Confluence ...
 Installation of Confluence 5.9.12 is complete
@@ -102,7 +98,8 @@ include conf.d/upstream/*.conf;
 include conf.d/*.conf;
 
     }
-
+</pre>
+<pre>
 [root@new-confluence ~]# cat /etc/nginx/conf.d/fluence.conf 
 server {
     listen       80;
