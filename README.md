@@ -118,7 +118,6 @@ server {
         proxy_temp_file_write_size 64k;
         }
 }
-
 [root@new-confluence ~]# cat /etc/nginx/conf.d/upstream/info.conf 
 upstream info{
    server 127.0.0.1:8090;
